@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "hello from A (workflow, uses B)"
-      - uses: thomasboni/nested-actions-b@main
+      - uses: thomasboni/nested-actions-b@b7066485cd3df4314af027cf80f16d38b9c653f1 # main
